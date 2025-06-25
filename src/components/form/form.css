@@ -1,0 +1,87 @@
+/* form.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Title */
+.form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Single unified form block */
+.full-form {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+.full-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* Inputs, Selects, Textarea */
+.full-form input,
+.full-form select,
+.full-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.2s ease-in-out;
+}
+
+.full-form input:focus,
+.full-form select:focus,
+.full-form textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Submit Button */
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #2980b9;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.required-star {
+  color: red;
+  margin-left: 2px;
+}
