@@ -1,0 +1,60 @@
+[
+  {
+    "label": "Name",
+    "name": "name",
+    "type": "text",
+    "placeholder": "Enter your name",
+    "required": true
+  },
+  {
+    "label": "Age",
+    "name": "age",
+    "type": "number",
+    "placeholder": "Enter your age",
+     "required": true
+  },
+  {
+    "label": "Nationality",
+    "name": "nationality",
+    "type": "select",
+     "options": [
+      { "value": "", "text": "Select Nation" },
+      { "value": "Indian", "text": "Indian" },
+      { "value": "American", "text": "american" },
+      { "value": "other", "text": "Other" }
+    ]
+  },
+  {
+    "label": "Email",
+    "name": "email",
+    "type": "email",
+    "placeholder": "Enter your email",
+     "required": true
+  },
+  {
+    "label": "Contact Number",
+    "name": "contactnumber",
+    "type": "number",
+    "placeholder": "Enter your contact number",
+    "required": true
+  },
+  {
+    "label": "Gender",
+    "name": "gender",
+    "type": "select",
+    "options": [
+      { "value": "", "text": "Select gender" },
+      { "value": "male", "text": "Male" },
+      { "value": "female", "text": "Female" },
+      { "value": "other", "text": "Other" },
+      { "value": "prefer_not_to_say", "text": "Prefer not to say" }
+    ]
+  },
+  {
+    "label": "Address",
+    "name": "address",
+    "type": "textarea",
+    "placeholder": "Enter your address"
+  }
+  
+]

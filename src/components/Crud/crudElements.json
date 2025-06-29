@@ -1,0 +1,19 @@
+[
+  { "key": "name", "label": "Name" },
+  { "key": "age", "label": "Age" },
+  { "key": "email", "label": "Email" },
+  { "key": "contactnumber", "label": "Contact" },
+  {
+    "key": "nationality",
+    "label": "Nationality",
+    "type": "select",
+    "options": ["Indian", "American", "Other"]
+  },
+  {
+    "key": "gender",
+    "label": "Gender",
+    "type": "select",
+    "options": ["Male", "Female", "Other", "Prefer not to say"]
+  },
+  { "key": "address", "label": "Address" }
+]
